@@ -2,4 +2,4 @@ package com.example.geoquiz
 
 import androidx.annotation.StringRes
 
-data class Question (@StringRes val textRestI: Int, val answer: Boolean)
+data class Question (@StringRes val textRestId: Int, val answer: Boolean)
