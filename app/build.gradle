@@ -3,8 +3,16 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+
+
+
+
 android {
     compileSdk 32
+
+    buildFeatures {
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "com.example.geoquiz"
@@ -29,7 +37,15 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+
+    buildFeatures {
+        viewBinding true
+    }
+
 }
+
+
 
 dependencies {
 
